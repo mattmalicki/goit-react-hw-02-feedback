@@ -1,0 +1,22 @@
+.feedbackButtons {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.feedbackButton {
+  text-transform: capitalize;
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: currentColor;
+  background-color: transparent;
+}
+
+.feedbackButton:hover,
+.feedbackButton:focus {
+  background-color: black;
+  color: white;
+  border-color: yellow;
+}

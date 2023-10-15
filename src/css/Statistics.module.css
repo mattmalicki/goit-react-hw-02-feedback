@@ -1,0 +1,10 @@
+.statistics-header {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.stats-info {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
